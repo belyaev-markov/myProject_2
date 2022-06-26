@@ -1,0 +1,64 @@
+ .page {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .title {
+  font-size: 40px;
+  margin: 20px 0 0 0;
+  padding: 0;
+ }
+ .subtitle {
+  font-size: 25px;
+  margin: 0;
+  padding: 15px 0 0 0;
+ }
+ .text {
+  font-size: 25px;
+  max-width: 1049px;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0 0 0;
+ }
+ .quote {
+  font-size: 26px;
+  margin: 0;
+  padding: 10px 0 0 0;
+ }
+
+ .table {
+  margin: 20px 0 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  grid-template-rows: repeat(4923, max-content);
+  column-gap: 40px;
+  row-gap: 10px;
+  grid-auto-flow: column;
+}
+.cell {
+  font-size: 22px;
+  background-color: rgba(237, 160, 66, 0.15);
+  margin: 0;
+}
+.column-1 {
+  grid-column: 1;
+}
+.column-2 {
+  grid-column: 2;
+}
+.column-3 {
+  grid-column: 3;
+}
+.column-4 {
+  grid-column: 4;
+}
+.column-5 {
+  grid-column: 5;
+}
+.column-6 {
+  grid-column: 6;
+}
